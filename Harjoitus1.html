@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MÖKKIVARAUSOHJELMAt</title>
+    <script src="Harjoitus1.js"></script>
+</head>
+<body>
+    <h1>SYÖTÄ YHTEYSTIETOSI ALLA OLEVIIN KENTTIIN</h1>
+    <form name="frmLomake">
+
+            <p>Etunimi: <input type="text" id="txtSisaan1" size="8"></p>
+            <p>Sukunimi: <input type="text" id="txtSisaan2" size="8"></p>
+            <p>Katuosoite: <input type="text" id="txtSisaan3" size="8"></p>
+            <p>Postitoimipaikka: <input type="text" id="txtSisaan4" size="8"></p>
+            <p>Ika: <input type="text" id="txtSisaan5" size="8"></p>
+            <p><input type="button" value="TARKISTA YHTEYSTIETOSI" id="btnTarkista" onclick="Tarkistus(document.frmLomake)"> <input type="button" value="TALLENNA YHTEYSTIETOSI" id="btnSiirra" onclick="Tallenna(document.frmLomake)"></p>
+            <p></p><textarea  id="txaOutput" rows="18" cols="24"></textarea>
+
+</form>  
+</body>
+</html>
